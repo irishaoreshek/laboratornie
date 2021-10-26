@@ -1,0 +1,12 @@
+2.	xa = int(input())
+xb = int(input())
+xc = int(input())
+
+AC=abs(xc-xa)
+print('Длина отрезка AC равна: ',AC)
+BC=abs(xc-xb)
+print('Длина отрезка BC равна: ',BC)
+Sum=AC+BC
+print('Сумма отрезков AC и BC равно: ',Sum)
+print('Длина AC равно: ',AC)
+print('Длина BC равно: ',BC)
